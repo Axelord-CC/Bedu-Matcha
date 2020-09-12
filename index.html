@@ -1,48 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matcha</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
-</head>
-<body>
+<html>
+    <head>
+        <!-- Aquí va información importante pero no visible dentro del navegador -->
+        <title>Matcha</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <!-- Esto es lo que se verá en el navegador web -->
 
-    <!-- HEADER -->
-    <header class="header">
+        <!-- HEADER -->
+        <header class="header">
+            <!-- Logo con link a la pagina principal -->
+            <a href="/" class="logo">
+                <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="">
+            </a>
+            <!-- menu de navegacion -->
+            <nav class="navbar">
+                <ul>
+                    <li class="menu-item">Platform</li>
+                    <li class="menu-item">Pricing</li>
+                    <li class="menu-item">Customers</li>
+                    <li class="menu-item">Resources</li>
+                    <li class="menu-item">About</li>
+                </ul>
+            </nav>
+            <!-- Contenedor de acciones de usuario -->
+            <div class="actions">
+                <a href="">Sign In</a>
+                <button>Start free trial</button>
+            </div>
+        </header>
 
-        <!--Logo con link a la pagina principal-->
-        <a class="logo">
-            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Logo-matcha">
-        </a>
 
-        <!-- Menu de navegacion -->
-        <nav class="navbar">
-            <ul>
-                <li class="list-item">Plaform</li>
-                <li class="list-item">Pricing</li>
-                <li class="list-item">Customers</li>
-                <li class="list-item">Resources</li>
-                <li class="list-item">About</li>
-            </ul>
-        </nav>
-
-        <!--Acciones de usuario-->
-        <div class="actions">
-            <a href="/login">Sign in</a>
-            <button>Star free trial</button>
-        </div>
-    </header>
-
-    <!-- SPLASH -->
-    <h1>Build your blog. Build your business</h1>
-    <h4> Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales. </h4>
-    <form>
-        <input type="email" placeholder="Enter email address">
-        <button type="submit">Try it now &rarr;</button>
-    </form>
-    <img class="img01" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="Calificacion-estrellas">
-    <img class="img02" src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" alt="Ventanas-matcha">
-</body>
+        <!-- LANDING PAGE -->
+        <h1>Build your blog. Build your business</h1>
+        <h4>Instantly publish articles, drive more traffic, grow your email list, and see your blog's impact on sales.</h4>
+        <form>
+            <input class="landing-input" type="email">
+            <button type="submit">
+              Try it now &rarr;
+            </button>
+        </form>
+        <img class="landing-img" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="">
+        <img class="landing-img" src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" alt="">
+    </body>
 </html>

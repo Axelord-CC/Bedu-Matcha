@@ -1,4 +1,4 @@
-/** Resetear estilos **/
+/** ESTILOS GENERALES **/
 
 * {
     margin: 0;
@@ -6,14 +6,14 @@
     box-sizing: border-box;
 }
 
-/** Contenido principal **/
-
 body {
-    background-color: #e9d2ba;
+    background-color: #fffbf7;
 }
 
+/** ESTILOS LANDING PAGE **/
+
 h1 {
-    color:  #025157;
+    color: #025157;
     font-family: "kumbh sans", sans-serif;
     font-weight: 700;
     font-size: 50px;
@@ -25,82 +25,80 @@ h4 {
     color: #46484c;
     font-family: "kumbh sans", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 form {
     text-align: center;
-    margin-top: 30px;
 }
 
-form input {
-    height: 60px;
-    width: 250px;
-    padding: 15px;
-    margin: 0;
-    border: 0;
-    border-radius: 10px 0 0 10px;
-    font-size: 15px;
-}
-
-form button {
+button {
     color: #fff;
     background-color: #025157;
-    height: 60px;
-    width: 120px;
-    padding: 5px;
-    margin: 0;
+    padding: 12px 14px;
     border: 0;
-    border-radius: 0 10px 10px 0;
-    font-size: 15px;
+    border-radius: 0 5px 5px 0;
+    height: 50px;
 }
 
-/** Barra de navegacion **/
+.landing-input {
+    height: 50px;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 5px 0 0 5px;
+}
+
+
+
+/** ESTILOS BARRA DE NAVEGACION **/
+
+li {
+    display: inline;
+}
 
 .header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 40px 20px 0 20px;
     font-size: 0;
-    font-family: sans-serif;
     height: 45px;
+    font-family: sans-serif;
 }
 
 .header > * {
     display: inline-block;
     font-size: 16px;
     height: 100%;
-    line-height: 45px;
     vertical-align: middle;
+    line-height: 45px;
 }
 
 .logo {
     width: 15%;
-    height: 100%;
 }
 
-.logo > img {
-    height: 100%;
-}
+
 
 .navbar {
     width: 70%;
+    color: #025157;
     text-align: center;
     font-weight: 500;
-    color: #025157;
+}
+
+.menu-item {
+    display: inline;
+    margin: 0 25px 0 25px;
 }
 
 .actions {
     width: 15%;
-    text-align: right;
     font-size: 14px;
-    font-weight: 400;
+    text-align: right;
+    font-weight: 600;
 }
 
 .actions > * {
-    margin: 0 10px;
+    margin: 0 10px 0 10px;
 }
 
 .actions a {
@@ -108,15 +106,9 @@ form button {
 }
 
 .actions button {
-    background-color: #67b54b;
     color: white;
+    background-color: #67b54b;
     padding: 12px 14px;
     border: 0;
     border-radius: 5px;
-}
-
-.list-item {
-    margin: 0 25px;
-    color: #025157;
-    display: inline;
 }
